@@ -15,7 +15,7 @@ st.set_page_config(
 # 使用侧边栏实现多页面显示效果
 with st.sidebar:
     # 加载并显示侧边栏 Logo（相对路径，需确保 images 目录存在对应文件）
-    st.image('Chapter8_resources\images/rigth_logo.png', width=100)  
+    st.image('Chapter8_resources\images/rigthe_logo.png', width=100)  
     st.title('请选择页面')  # 侧边栏标题
     # 创建页面选择框，隐藏默认标签（label_visibility='collapsed'）
     page = st.selectbox("请选择页面", ["简介页面", "预测分类页面"], label_visibility='collapsed')  
