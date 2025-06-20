@@ -115,11 +115,11 @@ elif page == "预测分类页面":
 
     # ------------------------- 4.3 加载模型与预测 -------------------------
     # 加载训练好的随机森林模型
-    with open('rfc_model.pkl', 'rb') as f:
+    with open('Chapter8_resources/rfc_model.pkl', 'rb') as f:
         rfc_model = pickle.load(f)
 
     # 加载类别映射（编码 -> 企鹅种类）
-    with open('output_uniques.pkl', 'rb') as f:
+    with open('Chapter8_resources/output_uniques.pkl', 'rb') as f:
         output_uniques_map = pickle.load(f)
 
     # ------------------------- 4.4 预测结果展示 -------------------------
